@@ -71,4 +71,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+
+    for topic in topics:
+        print(topic.name)
+    #main()
